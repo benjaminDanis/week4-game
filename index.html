@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Star Wars Game</title>
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="label" class="animated zoomIn"></div>
+
+<div id="divBox"></div>
+
+
+<div id="playerChoiceLbl" class="gameLbl animated zoomIn"> Player Choice: </div>
+<div><span id="playerChoice"></span></div>
+
+
+
+<div id="enemyChoiceLbl" class="gameLbl animated zoomIn"></div>
+<div id="enemyChoice"></div>
+
+<div id="defenderLbl" class="gameLbl animated zoomIn"></div>
+
+<div id="defender"></div>
+
+<button id="attackBtn" class="gameLbl animated zoomIn">Attack</button>
+
+<div id="playerStats">
+	You attacked <span class="enemy"></span> for <span id="attackPoints"> </span> damage. <br>
+	<span class="enemy"></span> attacked you back for <span id="counterPoints"></span> damage. <br>
+	<span id="outcome"></span>	<br>
+	<button id="newGame">Restart</button>
+</div>
+
+</body>
+
+<script type="text/javascript" src="assets/javascript/script.js"></script>
+
+</html>

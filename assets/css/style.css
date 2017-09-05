@@ -1,0 +1,132 @@
+*{
+	font-family: "Lucida Console", Monaco, monospace;
+	color: white;
+}
+
+body{
+	background-image: url("../images/space.jpg")
+}
+
+#divBox{
+	
+	width: 75%;
+	height: 100px;
+	display: block;
+	margin: 0px auto;
+	/*border: 3px solid black;*/
+
+
+}
+
+h1{
+	text-align: center;
+	color: yellow;
+}
+
+.gameLbl {
+	
+	float: left;
+	clear: both;
+
+}
+
+.playerDiv {
+
+	display: block;
+	float: left;
+	margin-top: 20px;
+	margin-left: 30px;
+	text-align: center;
+	color: blue;
+	 background-repeat: no-repeat;
+	 width: 150px;
+	 height: 150px;
+    background-position: center; 
+    padding: 10px;
+  
+	
+
+}
+
+#playerStats{
+	
+	position: relative;
+	left: 400px;
+
+
+}
+
+/*#defender, #defenderLbl {
+	position: relative;
+	left: 800px;
+	bottom: 370px
+}*/
+
+#attackBtn, #newGame{
+	float: left;
+	display: block;
+	background-color: green; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    /*-webkit-transition-duration: 0.4s;  Safari 
+    transition-duration: 0.4s;*/
+}
+
+#attackBtn:hover, #newGame:hover{
+	background-color: red; /* Green */
+    color: white;
+}
+
+
+#lukeSkywalker {
+
+	background-image: url('../images/luke.png');
+	
+
+}
+
+#obiWan {
+
+	background-image: url('../images/obi.png');
+	
+}
+
+#darthMaul {
+
+	background-image: url('../images/maul.png');
+	
+}
+
+#darthSid {
+
+	background-image: url('../images/sid.jpg');
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
